@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USERNAME=$(whoami)
-MAIN_REPO=git@github.com/ovgu-nit/ROS2_Main.git
+MAIN_REPO=git@github.com:ovgu-nit/ROS2_Main.git
 TARGET_WS="/opt/NIT_ROS2/${USERNAME}_ws"
 
 echo "Cloning main repo into $TARGET_WS..."
