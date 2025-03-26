@@ -4,6 +4,8 @@ USERNAME=$(whoami)
 MAIN_REPO=git@github.com:ovgu-nit/ROS2_Main.git
 TARGET_WS="/opt/NIT_ROS2/${USERNAME}_ws"
 
+echo "Creating Workspace for $USERNAME"
+
 echo "Cloning main repo into $TARGET_WS..."
 git clone "$MAIN_REPO" "$TARGET_WS"
 
