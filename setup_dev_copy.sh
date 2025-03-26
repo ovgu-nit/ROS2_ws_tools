@@ -2,7 +2,7 @@
 
 USERNAME=$(whoami)
 SOURCE="/opt/NIT_ROS2/main_ws"
-TARGET="/opt/NIT_ROS2/${USERNAME}_ws"
+TARGET="/opt/NIT_ROS2/${USERNAME}_main_ws"
 
 echo "Copying workspace from $SOURCE to $TARGET..."
 cp -r "$SOURCE" "$TARGET"
