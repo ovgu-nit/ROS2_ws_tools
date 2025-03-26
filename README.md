@@ -4,6 +4,13 @@ This repo contains public scripts to set up multi-user development workspaces fo
 
 ## Usage
 
-### 1. Create a clean, empty dev workspace
+### Create a clean, empty dev workspace
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/ovgu-nit/ros2_ws_tools/main/setup_dev_ws_empty.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/ovgu-nit/ros2_ws_tools/main/setup_dev_empty.sh)
+```
+## Alternative
+
+### Create a copy of main to play with
+```bash
+bash <(wget -qO- https://raw.githubusercontent.com/ovgu-nit/ros2_ws_tools/main/setup_dev_copy.sh)
+```
